@@ -20,6 +20,18 @@
     height: 70vh; }        
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* content-text #######################################################*/
 .content-text{
     width: fit-content;
@@ -56,3 +68,68 @@
     font-size: 2rem;
 }        
 }
+
+
+
+
+
+
+
+
+
+
+
+/*.content1{ 
+    align-items: center; }
+
+
+*/
+
+
+
+
+
+/* content-text1 #######################################################*/
+.content1{display: flex;}
+
+.content-text1{
+    margin: 20px;
+    width: fit-content;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .content1{
+        display: block;   
+    }
+
+    .content-text1{
+        display: block;
+        text-align: center;
+        font-weight: lighter;
+    }   
+
+    app-card{
+        align-self: center;
+        display: inline;
+    }
+    
+}
+
