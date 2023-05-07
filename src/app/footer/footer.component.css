@@ -1,0 +1,11 @@
+.links{
+    width: inherit;
+    display: flex;
+    padding: 50px 50px;
+}
+
+.example-button-container{
+    margin: 0 auto;
+
+
+}

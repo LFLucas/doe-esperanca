@@ -8,6 +8,7 @@ import { MaterialModule } from './material.module';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ContentComponent } from './content/content.component';
 import { CardComponent } from './card/card.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -15,7 +16,8 @@ import { CardComponent } from './card/card.component';
   declarations: [
     ToolbarComponent,
     ContentComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ],
   
   imports: [
@@ -27,7 +29,8 @@ import { CardComponent } from './card/card.component';
     MaterialModule,
     ToolbarComponent,
     ContentComponent,
-    CardComponent
+    CardComponent,
+    FooterComponent
   ]
 })
 export class CommonComponentsModule { }
