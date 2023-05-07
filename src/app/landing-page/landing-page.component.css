@@ -1,0 +1,40 @@
+.landing{
+    background-image: url("./../../assets/espaço.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100vw;
+    height: 100vh;
+    position: static
+}
+
+.logo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.background-logo{
+    border-radius: 100%;
+    display: block;
+    background-image: radial-gradient(rgba(0,0,0,255),rgba(0,0,0,0) );
+    margin: 100px auto;
+    width: fit-content;
+}
+
+.forward-button{
+    position: absolute;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 1.5rem;
+    bottom: 50px;
+    border-radius: 30px;
+    
+    left: -50%;
+    right: -50%;
+}
+
+@media screen and (max-width: 800px){}
+@media screen and (min-width: 800px) and (max-width: 1600px){}
+@media screen and (min-width: 1600px){}

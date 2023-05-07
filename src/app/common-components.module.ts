@@ -10,6 +10,8 @@ import { ContentComponent } from './content/content.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
+
 
 
 
@@ -19,7 +21,8 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     ContentComponent,
     CardComponent,
     FooterComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    HomePageComponent
   ],
   
   imports: [
