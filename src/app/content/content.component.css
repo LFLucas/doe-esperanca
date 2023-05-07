@@ -20,18 +20,6 @@
     height: 70vh; }        
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* content-text #######################################################*/
 .content-text{
     width: fit-content;
@@ -69,31 +57,16 @@
 }        
 }
 
-
-
-
-
-
-
-
-
-
-
-/*.content1{ 
-    align-items: center; }
-
-
-*/
-
-
-
-
-
 /* content-text1 #######################################################*/
-.content1{display: flex;}
+.content1{
+    display: flex;
+    align-items: center;
+}
 
 .content-text1{
-    margin: 20px;
+    vertical-align: center;
+    display: flex;
+    margin: 20px auto;
     width: fit-content;
     text-align: center;
     line-height: 1.8;

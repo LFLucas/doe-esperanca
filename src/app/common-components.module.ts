@@ -9,6 +9,7 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ContentComponent } from './content/content.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
+import { LandingPageComponent } from './landing-page/landing-page.component';
 
 
 
@@ -17,7 +18,8 @@ import { FooterComponent } from './footer/footer.component';
     ToolbarComponent,
     ContentComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    LandingPageComponent
   ],
   
   imports: [
@@ -30,7 +32,8 @@ import { FooterComponent } from './footer/footer.component';
     ToolbarComponent,
     ContentComponent,
     CardComponent,
-    FooterComponent
+    FooterComponent,
+    LandingPageComponent
   ]
 })
 export class CommonComponentsModule { }
