@@ -1,0 +1,10 @@
+
+
+<div class="card" *ngFor="let item of donationItems">
+    <mat-card class="example-card">
+        <img mat-card-image src={{item.imageUrl}} alt={{item.itemName}}>
+        <mat-card-content>
+            <p>{{item.description}}</p>
+        </mat-card-content>
+    </mat-card>
+</div>

@@ -11,6 +11,8 @@ import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { DonationPageComponent } from './donation-page/donation-page.component';
+import { MinimalistCardComponent } from './minimalist-card/minimalist-card.component';
 
 
 
@@ -22,7 +24,9 @@ import { HomePageComponent } from './home-page/home-page.component';
     CardComponent,
     FooterComponent,
     LandingPageComponent,
-    HomePageComponent
+    HomePageComponent,
+    DonationPageComponent,
+    MinimalistCardComponent
   ],
   
   imports: [
@@ -36,7 +40,10 @@ import { HomePageComponent } from './home-page/home-page.component';
     ContentComponent,
     CardComponent,
     FooterComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    HomePageComponent,
+    DonationPageComponent,
+    MinimalistCardComponent
   ]
 })
 export class CommonComponentsModule { }
